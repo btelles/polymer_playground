@@ -1,0 +1,15 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/core-ajax/core-ajax.html">
+
+<polymer-element name="bt-reports" noscript>
+  <template>
+    <header>
+      <h1>My header</h1>
+    </header>
+    <section>
+      <p>Yeah</p>
+      <core-ajax url="../a.json" auto response="{{resp}}"></core-ajax>
+      <textarea value="{{pre}}"></textarea>
+    </section>
+  </template>
+</polymer-element>
