@@ -1,0 +1,21 @@
+{
+  "name": "polymer_youtube",
+  "version": "0.0.0",
+  "authors": [
+    "Bernardo Telles <btelles@google.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.1",
+    "polymer": "~0.2.3",
+    "core-ajax": "Polymer/core-ajax#~0.2.4"
+  }
+}
